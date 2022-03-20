@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1% 6% 1% 6%;
+  background-color: rgba(238, 234, 234, 0.788);
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: 'The Nautigal', cursive;
+}
+
+header .logo .l {
+  color: rgba(248, 56, 8, 0.486);
+  font-size: 2.5rem;
+  text-shadow: 4px 4px 3px #ac2fff;
+}
+
+header .logo .o {
+  color: rgba(240, 0, 132, 0.397);
+  font-size: 2rem;
+  text-shadow: 4px 4px 3px #2af701;
+}
+
+header .bar {
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.section-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  background: #10f154;
+  background: -webkit-gradient(linear, left top, right bottom, from(#066aff), to(#FFFE01));
+  background: linear-gradient(to bottom right, #066aff, #FFFE01);
+  width: 100%;
+  height: 90vh;
+}
+
+.section-1 .sec-a {
+  width: 100%;
+  color: white;
+  padding-top: 20%;
+  padding-left: 30%;
+}
+
+.section-1 .sec-a h1 {
+  font-size: 4rem;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.section-1 .sec-a p {
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+.section-1 .sec-b {
+  width: 100%;
+  height: 90vh;
+  grid-column: 1 span 2;
+}
+
+.section-1 .sec-b img {
+  width: 100%;
+  height: 90vh;
+}
+
+.btn {
+  background-color: #d9fd0db6;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  padding: 10px 30px 10px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+.section-2-container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin: 100px 50px 50px 50px;
+}
+
+.section-2-container .sec-2-a {
+  height: 200px;
+}
+
+.section-2-container .sec-2-b {
+  width: 70%;
+  z-index: 1;
+  -ms-grid-column: 2;
+  grid-column: 2/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+}
+
+.section-2-container .sec-2-b img {
+  width: 100%;
+  height: 80vh;
+  border-radius: 20px;
+}
+
+.section-2-container .sec-2-b h1 {
+  padding-top: 50px;
+  font-size: 3rem;
+  color: #2e2c2c;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-2-container .sec-2-b p {
+  font-size: 1.25rem;
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.section-2-container .sec-2-c {
+  background-color: white;
+  margin-left: 100px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 50px solid white;
+  z-index: 1;
+  text-align: center;
+}
+
+.section-2-container .sec-2-c img {
+  width: 100%;
+  height: 80vh;
+  border-radius: 30px;
+}
+
+.section-2-container .sec-2-c h2 {
+  padding-top: 50px;
+  font-size: 2.5rem;
+  color: #2e2c2c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-2-container .sec-2-c p {
+  font-size: 1.25rem;
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.h-row {
+  margin-top: -1150px;
+  width: 100%;
+  height: 350px;
+  background: #10f154;
+  background: -webkit-gradient(linear, left top, right bottom, from(#066aff), to(#FFFE01));
+  background: linear-gradient(to bottom right, #066aff, #FFFE01);
+}
+/*# sourceMappingURL=index.css.map */

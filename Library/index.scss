@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 6% 1% 6%;
+    background-color: rgba(238, 234, 234, 0.788);
+   
+    .logo{
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: 'The Nautigal', cursive;
+        .l{
+            color: rgba(248, 56, 8, 0.486);
+    
+            font-size: 2.5rem;
+            text-shadow: 4px 4px 3px rgb(172, 47, 255);
+        }
+    
+        .o{
+            color: rgba(240, 0, 132, 0.397);
+            font-size: 2rem;
+            text-shadow: 4px 4px 3px rgb(42, 247, 1);
+        }
+
+    }
+    .bar{
+        padding-top: 10px;
+        font-size: 2rem;
+    }
+}
+
+.section-1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: #10f154;
+    background: -webkit-linear-gradient(top left, #0fffc7, #FFFE01);
+    background: -moz-linear-gradient(top left, #06FBC0, #FFFE01);
+    background: linear-gradient(to bottom right, #066aff, #FFFE01);
+    width: 100%;
+    height: 90vh;
+    .sec-a{
+        width: 100%;
+        color: white;
+        padding-top:  20%;
+        padding-left: 30%;
+        h1{
+            font-size: 4rem;
+            width: 50%;
+            padding-bottom: 10px;
+        
+        }
+        p{
+            font-size: 1.5rem;
+            font-style: italic;
+            width: 70%;
+            padding-bottom: 50px;
+        }
+    }
+    .sec-b{
+        width: 100%;
+        height: 90vh;
+        grid-column: 1 span 2;
+        img{
+            width: 100%;
+            height: 90vh;
+        }
+    }
+}
+.btn{
+  
+    background-color: #d9fd0db6;
+    width: fit-content;
+    height: auto;
+    padding: 10px 30px 10px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+
+}
+.section-2-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: 100px 50px 50px 50px;
+   
+  
+    .sec-2-a{
+        
+        height: 200px;
+       
+    }
+    .sec-2-b{
+        
+        width: 70%;
+        z-index: 1;
+        grid-column: 2/2;
+        grid-row: 1/5;
+        
+        img{
+            width: 100%;
+            height: 80vh;
+            border-radius: 20px;
+        }
+        h1{
+            padding-top: 50px;
+            font-size: 3rem;
+            color: rgb(46, 44, 44);
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+            p{
+                font-size: 1.25rem;
+            width: 100%;
+            padding-top: 50px;
+            text-align: center;
+        }
+    }
+    
+    .sec-2-c{
+      
+        background-color: white;
+        margin-left: 100px;
+        grid-row: 2/6;
+        width: 80%;
+        height: fit-content;
+        border: 50px solid white;
+       z-index: 1;
+       text-align: center;
+        img{
+            width: 100%;
+            height: 80vh;
+            border-radius: 30px;
+        }
+        h2{
+            padding-top: 50px;
+            font-size: 2.5rem;
+            color: rgb(46, 44, 44);
+
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+            p{
+                font-size: 1.25rem;
+            width: 100%;
+            padding-top: 50px;
+            
+            margin-bottom: 40px;
+            
+        }
+
+    }
+}
+.h-row{
+    margin-top: -1150px;
+    width: 100%;
+    height: 350px;
+    background: #10f154;
+    background: -webkit-linear-gradient(top left, #0fffc7, #FFFE01);
+    background: -moz-linear-gradient(top left, #06FBC0, #FFFE01);
+    background: linear-gradient(to bottom right, #066aff, #FFFE01);
+}
+
+
