@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4{
+    color: rgb(231, 94, 117);
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.nav-container{
+    padding: 0 10%;
+    background-color: bisque;
+}
+.nav-bar{
+    
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-bar .menu{
+    text-align: center;
+}
+.nav-bar .menu a{
+    padding-left: 15px;
+}
+.icons{
+    text-align: end;
+}
+.container{
+    background-image: url(./assets/images/home-bg.jpg);
+    padding: 0 10%;
+   
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-around;
+    text-align: start;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+   
+}
+.hero h1{
+    color: rgba(104, 27, 27, 0.829);
+    font-size: 4rem;
+font-weight: 900;
+}
+.hero p{
+    padding:30px 0;
+    font-size: .9rem;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background-color: rgb(247, 167, 138);
+    font-size: 1.5rem;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover{
+    font-size: 1.6rem;
+    background-color: rgb(253, 75, 44);
+    box-shadow: 2px 2px 12px rgb(70, 64, 64);
+}
+.abt-container{
+    padding: 0 10%;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
